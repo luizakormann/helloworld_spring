@@ -10,12 +10,17 @@ public class HelloController {
 	
 	@GetMapping
 	public String hello() {
-		return "<i>Hello Turma 68!!!</i>";
+		return "<b>Hello World! :)</b>";
 	}
 	
-	@GetMapping("/top")
-	public String top() {
-		return "<i>Turma 68 só a nata ;)</i>";
+	@GetMapping("/bsm")
+	public String bsm() {
+		return "As BSMs que trabalhamos no Bootcamp da Generation são: Orientação ao futuro; Mentalidade de Crescimento; Responsabilidade Pessoal e Persistênia. ";
+	}
+	
+	@GetMapping("/objs")
+	public String objs() {
+		return "Meus objetivos de aprendizagem da semana são: Bancas de dados relacionais e não-relacionais; STS; Métodos HTTP  e Revisão geral. ";
 	}
 
 }
